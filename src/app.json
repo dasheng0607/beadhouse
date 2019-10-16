@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/login/main",
+    "pages/user/main",
+    "pages/index/main",
+    "pages/logs/main"  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "用户",
+      "pagePath": "pages/user/main",
+      "iconPath": "static/tabs/me.png",
+      "selectedIconPath": "static/tabs/me-active.png"
+    }, {
+      "text": "健康",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/health.png",
+      "selectedIconPath": "static/tabs/health-active.png"
+    }, {
+      "text": "运动",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/move.png",
+      "selectedIconPath": "static/tabs/move-active.png"
+    }, {
+      "text": "通知",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/news.png",
+      "selectedIconPath": "static/tabs/news-active.png"
+    }, {
+      "text": "摄像",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/camera.png",
+      "selectedIconPath": "static/tabs/camera-active.png"
+    }],
+
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }, {
+      "name": "订单",
+      "pagePath": "pages/logs/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    }],
+    "position": "bottom"
+  }
+}

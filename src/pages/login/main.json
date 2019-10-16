@@ -1,0 +1,16 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "wux-cell-group": "../../../static/wux/cell-group/index",
+    "wux-cell": "../../../static/wux/cell/index",
+    "wux-input": "../../../static/wux/input/index",
+    "wux-button": "../../../static/wux/button/index",
+    "wux-icon": "../../../static/wux/icon/index",
+    "wux-grids": "../../../static/wux/grids/index",
+    "wux-grid": "../../../static/wux/grid/index",
+    "wux-navbar": "../../../static/wux/navbar/index",
+    "wux-toast": "../../../static/wux/toast/index"
+  }
+}
